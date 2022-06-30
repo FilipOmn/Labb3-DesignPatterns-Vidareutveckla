@@ -121,7 +121,7 @@ namespace Labb_3___Vidareutveckla
     {
         static void Main(string[] args)
         {
-            var machine = new WarmDrinkMachine();2
+            var machine = new WarmDrinkMachine();
             IWarmDrink drink = machine.MakeDrink();
             drink.Consume();
         }
